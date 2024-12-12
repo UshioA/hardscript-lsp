@@ -12,7 +12,3 @@ def main(argv):
   parser = HardScriptParser(stream)
   tree = parser.design()
   print(tree.toStringTree(recog=parser))
-
-
-if __name__ == '__main__':
-  main(sys.argv)
